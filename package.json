@@ -4,7 +4,8 @@
   "description": "JSON server desenvolvido durante a aula do dia 10/11/22",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server --watch data/db.json"
   },
   "author": "André Hopf",
   "license": "ISC",
