@@ -1,66 +1,143 @@
 {
-  "posts": [
+  "doctors": [
     {
-      "id": 1,
-      "title": "Teste",
-      "description": "Descrição de Teste"
-    },
-    {
-      "id": 2,
-      "title": "Segundo post",
-      "descricao": "Agora teremos uma descrição um pouco maior"
-    },
-    {
-      "title": "Hello!",
-      "description": "This is the third post",
-      "id": 3
-    },
-    {
-      "title": "Wooow!",
-      "description": "This is the forth post. I'm the most awesome post ever.",
-      "id": 4
-    },
-    {
-      "title": "ok",
-      "description": "??",
-      "id": 5
-    },
-    {
-      "title": "Alou!!",
-      "description": "heheheh",
-      "id": 6
-    },
-    {
-      "title": "ed",
-      "description": "ed",
-      "id": 7
-    },
-    {
-      "title": "ed",
-      "description": "ed",
-      "id": 8
-    },
-    {
-      "title": "jhe",
-      "description": "ed",
-      "id": 9
-    },
-    {
-      "title": "ed",
-      "description": "ed",
-      "id": 10
-    },
-    {
-      "title": "de",
-      "description": "de",
-      "id": 11
-    },
-    {
-      "title": "ddd",
-      "description": "ddd",
-      "id": 12
+      "name": "Administrador",
+      "email": "admin@labmedical.com",
+      "password": "admin123",
+      "avatar": "https://robohash.org/admin@labmedical.com1",
+      "id": 1
     }
   ],
-  "comments": [],
-  "users": {}
+  "pacients": [
+    {
+      "identification": {
+        "pacientName": "André Jaques Hopf",
+        "pacientGender": "masculino",
+        "dob": "1992-03-14",
+        "cpf": "022.567.470-00",
+        "rg": {
+          "number": "8098963161",
+          "dispatcher": "ssp"
+        },
+        "civilState": "solteiro",
+        "phoneNumber": "(48) 9 9903-0959",
+        "email": "andre.hopf@hotmail.com",
+        "cityOfBirth": "Porto Alegre",
+        "emergencyContact": "(48) 4 8478-7848",
+        "alergies": "Formiga",
+        "specialCare": ""
+      },
+      "healthInsurance": {
+        "insurance": "Unimed",
+        "insuranceNumber": 1234578,
+        "insuranceValidity": "2030-01-01"
+      },
+      "address": {
+        "cep": "88063431",
+        "city": "Florianópolis",
+        "state": "SC",
+        "street": "Servidão Arara Azul",
+        "number": 25,
+        "complement": "",
+        "district": "Campeche",
+        "reference": ""
+      },
+      "id": 1
+    },
+    {
+      "identification": {
+        "pacientName": "Rachel Lunardi Taffe",
+        "pacientGender": "feminino",
+        "dob": "1993-03-29",
+        "cpf": "123.456.788-88",
+        "rg": {
+          "number": "1234554",
+          "dispatcher": "SSC"
+        },
+        "civilState": "solteiro",
+        "phoneNumber": "(48) 9 8487-1248",
+        "email": "rachel@gmail.com",
+        "cityOfBirth": "Florianópolis",
+        "emergencyContact": "(51) 4 8748-1544",
+        "alergies": "",
+        "specialCare": ""
+      },
+      "healthInsurance": {
+        "insurance": "Bradesco",
+        "insuranceNumber": 32154578,
+        "insuranceValidity": "2012-02-02"
+      },
+      "address": {
+        "cep": "88063431",
+        "city": "Florianópolis",
+        "state": "SC",
+        "street": "Servidão Arara Azul",
+        "number": 25,
+        "complement": "5",
+        "district": "Campeche",
+        "reference": ""
+      },
+      "id": 2
+    },
+    {
+      "identification": {
+        "pacientName": "Ricardo Loch",
+        "pacientGender": "masculino",
+        "dob": "1991-12-12",
+        "cpf": "354.578.187-88",
+        "rg": {
+          "number": "8888888",
+          "dispatcher": "SSR"
+        },
+        "civilState": "casado",
+        "phoneNumber": "(51) 9 8744-4187",
+        "email": "ricardo@hotmail.com",
+        "cityOfBirth": "Porto Alegre",
+        "emergencyContact": "(51) 8 9784-6545",
+        "alergies": "",
+        "specialCare": ""
+      },
+      "healthInsurance": {
+        "insurance": "",
+        "insuranceNumber": "",
+        "insuranceValidity": ""
+      },
+      "address": {
+        "cep": "91920010",
+        "city": "Porto Alegre",
+        "state": "RS",
+        "street": "Rua Álvaro Guterres",
+        "number": 55,
+        "complement": "",
+        "district": "Tristeza",
+        "reference": ""
+      },
+      "id": 3
+    }
+  ],
+  "appointments": [
+    {
+      "pacientId": 3,
+      "reason": "Dor ciática",
+      "date": "2023-02-03",
+      "time": "15:16",
+      "description": "Dor na região posterior do quadril que se estende até a base do calcâneo.",
+      "medication": "",
+      "dosageAndPrecautions": "Alongamentos e caminhada frequente. Evitar ficar sentado por muito tempo.",
+      "id": 1
+    }
+  ],
+  "exams": [
+    {
+      "pacientId": 2,
+      "examName": "Raio-x do Punho",
+      "date": "2023-02-01",
+      "time": "15:50",
+      "examType": "Raio-x",
+      "examLab": "Clínica Imagem",
+      "examUrl": "http://www.clinicaimagem.com.br",
+      "examResult": "Sem alterações importantes.",
+      "id": 1
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "name": "json-server",
   "version": "1.0.0",
-  "description": "JSON server desenvolvido durante a aula do dia 10/11/22",
+  "description": "JSON server utilizado para o projeto LABMedical",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
