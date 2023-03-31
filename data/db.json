@@ -6,6 +6,13 @@
       "password": "admin123",
       "avatar": "https://robohash.org/admin@labmedical.com1",
       "id": 1
+    },
+    {
+      "name": "André Jaques Hopf",
+      "email": "andre.hopf@hotmail.com",
+      "password": "andre123",
+      "avatar": "https://robohash.org/andre.hopf@hotmail.com1",
+      "id": 2
     }
   ],
   "pacients": [
@@ -46,7 +53,7 @@
     },
     {
       "identification": {
-        "pacientName": "Rachel Lunardi Taffe",
+        "pacientName": "Maria de Souza",
         "pacientGender": "feminino",
         "dob": "1993-03-29",
         "cpf": "123.456.788-88",
@@ -81,7 +88,7 @@
     },
     {
       "identification": {
-        "pacientName": "Ricardo Loch",
+        "pacientName": "João Malheiros",
         "pacientGender": "masculino",
         "dob": "1991-12-12",
         "cpf": "354.578.187-88",
@@ -116,16 +123,6 @@
     }
   ],
   "appointments": [
-    {
-      "pacientId": 3,
-      "reason": "Dor ciática",
-      "date": "2023-02-03",
-      "time": "15:16",
-      "description": "Dor na região posterior do quadril que se estende até a base do calcâneo.",
-      "medication": "",
-      "dosageAndPrecautions": "Alongamentos e caminhada frequente. Evitar ficar sentado por muito tempo.",
-      "id": 1
-    },
     {
       "pacientId": 2,
       "reason": "Retorno após raio-x",
