@@ -1,7 +1,7 @@
 const lista = document.getElementById('lista');
 const form = document.querySelector('#form');
 
-const BASE_URL = 'http://localhost:3000';
+const BASE_URL = 'https://json-server-dddjfttyq-ajhopf.vercel.app';
 
 const populatePost = async post => {
   try {
